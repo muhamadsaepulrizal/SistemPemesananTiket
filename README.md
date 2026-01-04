@@ -1,3 +1,7 @@
+# Nama Anggota Kelompok
+1. Muhamad Saepul Rizal 2306142
+2. Muhammad Jafar Sopian 2306160
+
 # 🎫 TiketKu: Sistem Pemesanan Tiket Event Online
 ### **Tugas Besar Praktikum Pemrograman Web - Laravel 12**
 
@@ -121,12 +125,6 @@ Gunakan akun berikut untuk masuk ke sistem tanpa registrasi ulang:
 *   `routes/web.php`: Definisi seluruh endpoint URL aplikasi.
 
 ---
-
-## 👤 Kontribusi Anggota Kelompok
-*   **[Nama Anda]** - Lead Developer: Perancangan Database, Alur Logika Controller, & UI/UX Design.
-*   **[Nama Anggota 2]** - Frontend Specialist: Implementasi Blade Template & Styling.
-*   **[Nama Anggota 3]** - Logic Builder: Implementasi Fitur CRUD & Validasi.
-*   **[Nama Anggota 4]** - Documentation: Penulisan Laporan & Quality Testing.
 
 ---
 **© 2026 Tugas Besar Praktikum Pemrograman Web - Teknik Informatika**
