@@ -1,3 +1,7 @@
+# Nama Anggota Kelompok
+1. Muhamad Saepul Rizal 2306142
+2. Muhammad Jafar Sopian 2306160
+
 # 🎫 TiketKu: Sistem Pemesanan Tiket Event Online
 ### **Tugas Besar Praktikum Pemrograman Web - Laravel 12**
 
