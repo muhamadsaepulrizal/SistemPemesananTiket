@@ -126,11 +126,5 @@ Gunakan akun berikut untuk masuk ke sistem tanpa registrasi ulang:
 
 ---
 
-## 👤 Kontribusi Anggota Kelompok
-*   **[Nama Anda]** - Lead Developer: Perancangan Database, Alur Logika Controller, & UI/UX Design.
-*   **[Nama Anggota 2]** - Frontend Specialist: Implementasi Blade Template & Styling.
-*   **[Nama Anggota 3]** - Logic Builder: Implementasi Fitur CRUD & Validasi.
-*   **[Nama Anggota 4]** - Documentation: Penulisan Laporan & Quality Testing.
-
 ---
 **© 2026 Tugas Besar Praktikum Pemrograman Web - Teknik Informatika**
