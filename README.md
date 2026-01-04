@@ -234,4 +234,60 @@ Untuk memudahkan navigasi dalam pengujian, berikut adalah folder-folder kunci:
 ---
 **Dibuat oleh:** [Nama Mahasiswa/Kelompok]
 **Tujuan:** Pendukung Penilaian Tugas Besar Praktikum Pemrograman Web.
+## 6. Persyaratan Lingkungan
+- PHP >= 8.2
+- Composer
+- Laravel 12
+- MySQL (atau PostgreSQL) 5.7+
+- Node.js >= 18 (untuk asset front‑end)
+- npm / yarn
+
+## 7. Instalasi & Setup Langkah‑per‑Langkah
+1. `cd c:\laragon\www\SistemPemesananTiket`
+2. `composer install`
+3. `cp .env.example .env`
+4. `php artisan key:generate`
+5. Edit `.env` untuk konfigurasi database.
+6. `php artisan migrate --seed`
+7. `npm install && npm run dev`
+8. `php artisan serve` → buka `http://127.0.0.1:8000`
+
+## 8. Akun Demo
+| Peran | Email | Password |
+|------|-------|----------|
+| Admin | admin@tiketku.com | password123 |
+| User  | user@tiketku.com  | password123 |
+
+## 9. Diagram Arsitektur (MVC)
+*(sertakan gambar `architecture_diagram.png` di folder `public/images/`)*
+
+## 10. Flowchart Alur Pemesanan Tiket
+*(sertakan gambar `order_flowchart.png` di folder `public/images/`)*
+
+## 11. Screenshot UI Utama
+- Beranda (`resources/views/user/beranda.blade.php`)
+- Daftar Event (`resources/views/user/event/index.blade.php`)
+- Form Pemesanan (`resources/views/user/pemesanan/form.blade.php`)
+- Dashboard Admin (`resources/views/admin/dashboard.blade.php`)
+
+## 12. Testing & Debugging
+- Jalankan unit test: `php artisan test`
+- Log error: `storage/logs/laravel.log`
+- Clear cache: `php artisan cache:clear`, `php artisan route:clear`
+
+## 13. Catatan Pengembangan
+- Pembayaran bersifat simulasi; cukup pilih metode dan status otomatis menjadi **berhasil**.
+- Kuota tiket akan otomatis dikembalikan bila pesanan dibatalkan atau kadaluarsa.
+- Semua operasi yang mengubah stok tiket berada dalam **transaction** untuk menjaga konsistensi data.
+
+## 14. FAQ / Troubleshooting Ringkas
+- **404 Not Found** → jalankan `php artisan route:clear`.
+- **Error kuota tidak cukup** → pastikan kuota tiket cukup sebelum konfirmasi.
+- **Tidak dapat login** → periksa `.env` APP_KEY dan pastikan password sudah di‑hash.
+
+## 15. Referensi
+- Dokumentasi Laravel 12: https://laravel.com/docs/12.x
+- Bulma CSS: https://bulma.io
+- Font Awesome: https://fontawesome.com
+
 
