@@ -232,7 +232,7 @@
                     <p class="has-text-grey-light">
                         <i class="fas fa-envelope mr-2"></i> info@tiketku.com<br>
                         <i class="fas fa-phone mr-2"></i> (021) 1234-5678<br>
-                        <i class="fas fa-map-marker-alt mr-2"></i> Jakarta, Indonesia
+                        <i class="fas fa-map-marker-alt mr-2"></i> Garut, Indonesia
                     </p>
                 </div>
             </div>
